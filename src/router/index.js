@@ -5,12 +5,12 @@ const routes = [
   {
     name: " ",
     path: "/",
-    component: lazy(() => import("@/pages/generate-code")),
+    component: lazy(() => import("@/pages/home")),
   },
   {
-    name: "generate",
-    path: "/generate",
-    component: lazy(() => import("@/pages/generate-code")),
+    name: "home",
+    path: "/home",
+    component: lazy(() => import("@/pages/home")),
   },
 ];
 
