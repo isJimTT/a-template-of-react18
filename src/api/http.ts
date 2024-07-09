@@ -1,5 +1,4 @@
 import axios from "axios";
-import { TlMessage } from "tl-frontend-components";
 import QS from "qs";
 
 TlMessage.config({
